@@ -12,7 +12,7 @@ require Exporter;
 our @ISA = qw(Exporter);
 our @EXPORT_OK = qw(generate_suite cat parse_wikifile);
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 sub html_header;
 sub html_footer;

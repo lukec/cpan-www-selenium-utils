@@ -1,6 +1,9 @@
 Revision history for Perl extension WWW-Selenium-Utils.
 
-0.08 - ??
+0.09 - 13 Mar 2008
+    - added missing Test::Exception dependency
+
+0.08 - 7 Mar 2006
     - switch to eval'd config file, still support old style
     - report all errors in file before exiting
     - Added support to include other files

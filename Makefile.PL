@@ -8,7 +8,9 @@ use inc::Module::Install;
 WriteMakefile(
     NAME		=> 'WWW::Selenium::Utils',
     VERSION_FROM	=> 'lib/WWW/Selenium/Utils.pm', # finds $VERSION
-    PREREQ_PM		=> {}, 
+    PREREQ_PM		=> {
+        'Test::Exception' => 0,
+    }, 
     ABSTRACT            => 'Handy utilities for working with Selenium',
     AUTHOR              => 'Luke Closs <cpan@5thplane.com>',
     EXE_FILES           => [ qw(bin/selenium-regen) ],
